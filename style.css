@@ -13,18 +13,9 @@ body {
 	line-height: 15px;
 }
 
-a {
-	color: purple;
-}
 
-a:hover {
-	color: #cccccc;
-	background-color: blue;
-	text-decoration: none;
-}
-
-nav ul a {
-	list-style:: none;
+nav ul {
+	list-style-type: none;
 	padding: 0px;
 }
 
@@ -32,14 +23,23 @@ nav li {
 	display: inline-block;
 }
 
+
 nav a {
 	display: block;
 }
 
-a: hover {
+a {
+	color: purple;
+	transition: all 1s;
+}
+
+a:hover {
+	color: #cccccc;
 	background-color: blue;
 	text-decoration: none;
+	transition: all 1s;
 }
+
 
 #content {
 	margin: 20px;
