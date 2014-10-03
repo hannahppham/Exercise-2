@@ -7,4 +7,44 @@ body {
 
 .wrapper {
 	background-color: white;
+	width: 400px;
+	margin: 20px auto;
+	padding: 30px;
+	line-height: 15px;
+}
+
+a {
+	color: purple;
+}
+
+a:hover {
+	color: #cccccc;
+	background-color: blue;
+	text-decoration: none;
+}
+
+nav ul a {
+	list-style:: none;
+	padding: 0px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: block;
+}
+
+a: hover {
+	background-color: blue;
+	text-decoration: none;
+}
+
+#content {
+	margin: 20px;
+}
+
+code {
+	background-color: yellow;
 }
